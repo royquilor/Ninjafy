@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Superhero studio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/tachyons.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <nav class="dt w-100 border-box pa5">
+	<a class="f2 b dtc v-mid link dim w-25" href="/">N</a>
+        <div class="dtc v-mid  w-75 tr">
+        	<a class="link dim f6 ml4" href="/">About</a>
+		<a class="link dim f6 ml4" href="/">Services</a>
+		<a class="link dim f6 ml4" href="/">Contact</a>
+        </div>
+	</nav>
+	<section class="mw7 center tc ph4">
+		<div ng-init="hello='world'">
+			<h1>{{hello}}</h1>
+		</div>
+		<p class="f3 lh-copy">We are Ninjafy, a tiny design studio based in a neighbourhood near you (slack and video technologhy). See some of our work below and don't be afraid to get in touch</p>	
+		<input type="text" ng-model="hello" />	
+</section>
+       	<script src="js/jquery-1.12.3.min.js"></script>
+        <script src="js/lodash.min.js"></script>
+	<script src="js/angular.min.js"></script>
+
+    </body>
+</html>
